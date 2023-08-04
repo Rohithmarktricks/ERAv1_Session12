@@ -5,7 +5,7 @@ This repository contains the Jupyter notebook and the required python modules to
 Modules are as follows:
 
 
-1. ```[data_module.py](data_module.py)```: This contains the source code for the CIFAR10 dataset class ```AlbumDataset``` and a few transformations for train and test datasets respectively.
+1.[data_module.py](data_module.py): This contains the source code for the CIFAR10 dataset class ```AlbumDataset``` and a few transformations for train and test datasets respectively.
 
 ```Augmentaions on Train Dataset```
 ```
@@ -27,7 +27,7 @@ test_set_transforms = {
 }
 ```
 
-2. ```[resnet_custom.py](resnet_custom.py)```: This module contains the source code for ```CustomResnet2``` model and pytorchLigthning framework has been used to build the model. And the model summary/ model skeleton looks as follows
+2. [resnet_custom.py](resnet_custom.py): This module contains the source code for ```CustomResnet2``` model and pytorchLigthning framework has been used to build the model. And the model summary/ model skeleton looks as follows
 
 ```
 ----------------------------------------------------------------
@@ -77,9 +77,9 @@ Estimated Total Size (MB): 31.84
 ----------------------------------------------------------------
 ```
 
-3. ```[utils.py](utils.py)```: This module contains the helper functions to visulize the ```misclassfied_images``` and ```GradCAM``` images of the model predictions.
+3. [utils.py](utils.py): This module contains the helper functions to visulize the ```misclassfied_images``` and ```GradCAM``` images of the model predictions.
 
-4. ```[Session_12.ipynb](Session_12.ipynb)```: This Jupyter notebook contains the training, evaluation, logging, saving the checkpoints and tensorboard visualization of the Custom Resnet model.
+4. [Session_12.ipynb](Session_12.ipynb): This Jupyter notebook contains the training, evaluation, logging, saving the checkpoints and tensorboard visualization of the Custom Resnet model.
 
 5. ```Visualization of Misclassified Images```
 [Misclassified_images](images/misclassified_images.png)
@@ -89,14 +89,14 @@ Estimated Total Size (MB): 31.84
 
 7. ```Plots of the training/evaluation Logs```
 #### Loss Plots
-[Training_Loss](images/train_loss.png)
+![Training_Loss](images/train_loss.png)
 
-[validation_loss](images/valid_loss.png)
+![validation_loss](images/valid_loss.png)
 
 #### Accuracy Metrics Plots
-[training_accuracy](images/epoch_train_accuracy.png)
+![training_accuracy](images/epoch_train_accuracy.png)
 
-[validation_accuracy](images/epoch_valid_accuracy.png)
+![validation_accuracy](images/epoch_valid_accuracy.png)
 
 
 8. ```TensorBoard```: To visualize the logs/metrics/loss metrics of both trianing and validation (datasets), you can find the ```logs``` folder in the repository or a subfolder ```version_x``` (x: represents the run) in the ```logs``` folder.
