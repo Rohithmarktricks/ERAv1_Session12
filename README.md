@@ -115,3 +115,9 @@ Refer to ```cifar10_resnet_epochs30.ckpt``` checkpoint file for using the model.
 
 model = CustomResnet2.load_from_checkpoint(checkpoint_path="cifar10_resnet_epochs30.ckpt")
 ```
+
+10. ```Misclassified Images```
+![Misclassified_images](images/misclassified_images.png)
+
+11. ```Misclassed Images - gradCAM```
+![Misclassified_images_gradCAM](images/misclassified_gradCAMs.png)
